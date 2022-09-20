@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  /* position: fixed; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 150px;
+  background-color: #0f0c27;
+  color: white;
+  text-decoration: none;
+  border-bottom: solid 0.5px grey;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 20px;
+  justify-content: space-between;
+  width: 50%;
+  list-style: none;
+  padding-top: 10px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  font-size: 1.8rem;
+  margin-left: 20px;
+  font-weight: 600;
+}
+ul a {
+  font-size: 1rem;
+}
+.home {
+  background-color: #0f0c27;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bx-moon:hover {
+  cursor: pointer;
+}
+.social {
+  height: 100px;
+  margin-top: 80px;
+}
+section {
+  padding: 100px 10%;
+}
+.social a i {
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 1rem;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.home-text {
+  color: white;
+}
+.contact-me {
+  color: white;
+  text-decoration: none;
+  background-color: #033a80;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.contact-me:hover {
+  cursor: pointer;
+}
+.home-img img {
+  height: 400px;
+  width: 500px;
+}
+.heading-name {
+  font-size: 2.5rem;
+}
+.para-home {
+  margin: 20px 0px;
+  font-size: 1.5rem;
+}
+.aboutme {
+  text-align: center;
+  background-color: #0f0c27;
+  color: white;
+}
+
+.aboutme-section {
+  display: flex;
+  margin-top: 50px;
+  text-align: left;
+  margin-top: 120px;
+}
+.my-img {
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.img-section {
+  margin-left: 50px;
+}
+.aboutme-text {
+  width: 50%;
+  margin-left: 15%;
+  font-size: 1rem;
+}
+.icons-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.aboutme-heading {
+  font-size: 2.5rem;
+}
+/* .skills {
+  text-align: center;
+} */
+.skills {
+  text-align: center;
+  background-color: #0f0c27;
+  color: white;
+  padding: 10%;
+}
+.bars-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.light-bar {
+  width: 100%;
+  background: hsla(260, 100%, 4.4%, 0.4);
+  height: 0.5rem;
+  position: absolute;
+  top: 10;
+  bottom: 0;
+}
+.skill-bar {
+  width: 40%;
+}
+.percent-bar {
+  position: absolute;
+  top: 10;
+  bottom: 0;
+  background-color: #3223a1;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+}
+.html-bar {
+  width: 94%;
+}
+.css-bar {
+  width: 88%;
+}
+.javascript-bar {
+  width: 74%;
+}
+.react-bar {
+  width: 84%;
+}
+.skill-heading {
+  font-size: 2.5rem;
+}
+/* Expertise */
+.bx-lg {
+  color: #456fa5;
+}
+.expertise-heading {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+.expertise-subheading {
+  margin-bottom: 55px;
+}
+.expertise {
+  text-align: center;
+  background-color: #0f0c27;
+  color: white;
+  padding: 10%;
+}
+.areas {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+/* Projects */
+.project-heading {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+}
+.project-subheading {
+  margin-bottom: 15px;
+}
+.projects {
+  text-align: center;
+  background-color: #0f0c27;
+  color: white;
+  padding: 10%;
+  margin-top: -3%;
+}
+.projects img {
+  border-radius: 20px;
+  margin: 5px;
+}
+
+/* Contact Form */
+
+.contact-form {
+  background-color: #0f0c27;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form input,
+textarea {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #281f49;
+  text-decoration: none;
+  border: 0;
+}
+
+.form input,
+textarea {
+  padding: 10px;
+  color: white;
+}
+
+.contact-me-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+.submit:hover {
+  cursor: pointer;
+}
+.submit {
+  margin-top: 40px;
+  width: 20%;
+  height: 12%;
+  background-color: #033a80;
+  color: white;
+  padding: 10px 15px;
+  margin: 0px auto;
+  cursor: pointer;
+  font-weight: bold;
+  border-style: none;
+  font-size: large;
+  border-radius: 5px;
+}
