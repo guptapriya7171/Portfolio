@@ -11,8 +11,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+  
   </head>
-
+ <script>
+      function ChBackground() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
   <body>
     <!-- Navbar -->
     <header>
@@ -227,11 +233,6 @@
       </form>
     </section>
 
-    <script>
-      function ChBackground() {
-        document.body.style.backgroundColor = "white";
-        document.body.style.color = "black";
-      }
-    </script>
+    
   </body>
 </html>
