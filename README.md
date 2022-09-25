@@ -7,3 +7,8 @@
 ![Capture3](https://user-images.githubusercontent.com/96413187/191270731-f0e2efe1-cbfa-4eeb-a1ea-574d77aee5e3.PNG)
 
 ![Capture4](https://user-images.githubusercontent.com/96413187/192129545-c4950628-3075-41c2-9a11-5fe6051032aa.PNG)
+
+Shortcut:
+In an html file,
+1. type --> ! +enter
+2.div tag with name as main-container  : div.main-container+enter
